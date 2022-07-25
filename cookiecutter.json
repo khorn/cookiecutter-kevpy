@@ -1,0 +1,9 @@
+{
+    "author": "Kevin Horn",
+    "email": "kevin.horn@gmail.com",
+    "project_name": "Python Module",
+    "project_slug": "{{ cookiecutter.project_name|lower|replace(' ', '-') }}",
+    "module_name": "{{ cookiecutter.project_slug|replace('-', '_') }}",
+    "open_source_license": ["MIT license", "BSD license", "ISC license", "Apache Software License 2.0", "GNU General Public License v3", "Not open source"],
+    "version": "0.0.0"
+}
